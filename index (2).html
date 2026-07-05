@@ -1,8 +1,6 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Escalier d'objectifs</title>
 <style>
   :root {
     --paper: #191919;
@@ -260,7 +258,7 @@ function renderStair() {
   const n = Math.max(steps.length, 1);
   const doneCount = steps.filter(s => s.done).length;
   const W = 600, H = 380;
-  const marginX = 40, marginBottom = 50, topY = 40;
+  const marginX = 40, marginBottom = 50, topY = 80;
   const usableW = W - marginX * 2;
   const usableH = H - topY - marginBottom;
   const stepW = usableW / n;
